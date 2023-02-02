@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_sendMessage">
+
+    <fragment
+        android:id="@+id/nav_createGroup"
+        android:name="com.example.groupandmessage.ui.createGroup.CreateGroupFragment"
+        android:label="GRUP OLUŞTUR"
+        tools:layout="@layout/fragment_create_group" />
+    <fragment
+        android:id="@+id/nav_addMember"
+        android:name="com.example.groupandmessage.addMember.AddMemberFragment"
+        android:label="GRUBA ÜYE EKLE"
+        tools:layout="@layout/fragment_add_member" />
+    <fragment
+        android:id="@+id/nav_createMessage"
+        android:name="com.example.groupandmessage.createMessage.CreateMessageFragment"
+        android:label="MESAJ OLUŞTUR"
+        tools:layout="@layout/fragment_create_group" />
+    <fragment
+        android:id="@+id/nav_sendMessage"
+        android:name="com.example.groupandmessage.sendMessage.SendMessageFragment"
+        android:label="MESAJ GÖNDER"
+        tools:layout="@layout/fragment_send_message" />
+
+</navigation>

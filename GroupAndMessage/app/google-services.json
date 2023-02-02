@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "514747851810",
+    "project_id": "groupandmessageapp",
+    "storage_bucket": "groupandmessageapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514747851810:android:7c3bd0548e4a06ad79967b",
+        "android_client_info": {
+          "package_name": "com.example.groupandmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514747851810-tahr9ga8ug3u1cp4gdqjifkbl7umlkeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNwuG371rULe8CYMuRn88hwRyZ1awzXwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514747851810-tahr9ga8ug3u1cp4gdqjifkbl7umlkeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
